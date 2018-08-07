@@ -1,5 +1,6 @@
 language: node_js
-node_js: stable
+node_js: 
+  - 8.11.2
 
 
 # S: Build Lifecycle
@@ -8,10 +9,12 @@ install:
 
 
 #before_script:
- # - npm install -g gulp
+ - npm install -g gulp
+ - export TZ='Asia/Shanghai'
 
 script:
-  - hexo g
+  - hexo clean && hexo g
+  
 
 after_script:
   - ls
