@@ -10,8 +10,8 @@ install:
 script:
 
 after_script:
-  - pwd 
-  - ls
+  - cd hexo
+  - hexo clean && hexo g
   - pwd
   - cd ./public
   - echo "blog.shijf.top" >> CNAME
