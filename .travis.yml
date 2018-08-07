@@ -8,7 +8,7 @@ install:
   - npm install
 
 script:
-  - ./hexo/hexo clean && ./hexo/hexo g
+  - ./hexo hexo clean && ./hexo hexo g
   
 
 after_script:
