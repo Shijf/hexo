@@ -8,11 +8,10 @@ install:
   - npm install
 
 script:
-  - cd hexo
-  - hexo clean && hexo g
-  
+  - pwd 
 
 after_script:
+  - ls
   - pwd
   - cd ./public
   - echo "blog.shijf.top" >> CNAME
