@@ -8,6 +8,7 @@ install:
   - cd hexo
   - npm install
   - npm install hexo-renderer-ejs hexo-renderer-less hexo-deployer-git -S
+  - npm i hexo-generator-json-content@2.2.0 -S
   - hexo clean && hexo g
 
 script:
