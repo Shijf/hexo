@@ -12,10 +12,6 @@ install:
 script:
   - pwd
 after_script:
-  - cd hexo
-  - ls -a
-  - hexo -v
-  - pwd
   - cd ./public
   - echo "blog.shijf.top" >> CNAME
   - git init
