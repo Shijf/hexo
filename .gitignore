@@ -1,2 +1,8 @@
 node_modules/
 public/
+!public/assets/
+!public/css/
+!public/js/
+!public/img/
+!public/fonts/
+!public/favicon.ico
