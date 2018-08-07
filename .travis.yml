@@ -15,6 +15,7 @@ script:
 after_script:
   - ls ./public
   - cd ./public
+  - echo "blog.shijf.top" >> CNAME
   - git init
   - git config user.name "shijf"
   - git config user.email "shijf_private@163.com"
