@@ -11,7 +11,8 @@ script:
   - pwd
 after_script:
   - cd hexo
-  - hexo clean && hexo g
+  - ls -a
+  - hexo -v
   - pwd
   - cd ./public
   - echo "blog.shijf.top" >> CNAME
