@@ -7,11 +7,6 @@ node_js:
 install:
   - npm install
 
-
-before_script:
- - npm install -g gulp
- - export TZ='Asia/Shanghai'
-
 script:
   - hexo clean && hexo g
   
@@ -21,7 +16,7 @@ after_script:
   - ls ./public
   - hexo -v
   - npm -v
-  - hexo g
+  - hexo clean && hexo g
   - cd ./public
   - echo "blog.shijf.top" >> CNAME
   - git init
