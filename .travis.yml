@@ -11,8 +11,10 @@ install:
 
 script:
   - hexo g
+  - hexo d
 
 after_script:
+  - ls ./public
   - cd ./public
   - git init
   - git config user.name "shijf"
