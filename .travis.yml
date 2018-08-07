@@ -45,6 +45,5 @@ branches:
 env:
  global:
    - GH_REF: git@github.com:Shijf/shijf.github.io.git
-   - GH_TOKEN: 526de8cdcf23d8fb91318690babe51c6679180aa
   #  - GITEE_REF: gitee.com/shenliyang/shenliyang.git
 
