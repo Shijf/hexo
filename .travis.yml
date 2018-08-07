@@ -1,6 +1,7 @@
 language: node_js
 node_js: stable
 
+
 # S: Build Lifecycle
 install:
   - npm install
@@ -17,6 +18,7 @@ after_script:
   - ls ./public
   - hexo -v
   - npm -v
+  - hexo g
   - cd ./public
   - echo "blog.shijf.top" >> CNAME
   - git init
