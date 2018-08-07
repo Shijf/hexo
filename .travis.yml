@@ -12,6 +12,7 @@ script:
   
 
 after_script:
+  - pwd
   - cd ./hexo/public
   - echo "blog.shijf.top" >> CNAME
   - git init
