@@ -1,0 +1,6 @@
+[submodule "hexo/themes/snippet"]
+	path = hexo/themes/snippet
+	url = git://github.com/shenliyang/hexo-theme-snippet.git
+[submodule "hexo/hexo/themes/snippet"]
+	path = hexo/hexo/themes/snippet
+	url = git://github.com/shenliyang/hexo-theme-snippet.git
