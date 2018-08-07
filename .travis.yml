@@ -13,6 +13,7 @@ script:
 
 after_script:
   - ls
+  - pwd
   - ls ./public
   - hexo -v
   - npm -v
