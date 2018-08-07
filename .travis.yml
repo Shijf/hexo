@@ -11,11 +11,11 @@ install:
   - mv ./_config.yml.themes ./themes/snippet/_config.yml
 
 script:
-  - hexo clean && hexo g
+  - cd hexo && hexo clean && hexo g
   
 
 after_script:
-  - cd ./public
+  - cd ./hexo/public
   - echo "blog.shijf.top" >> CNAME
   - git init
   - git config user.name "shijf"
