@@ -14,6 +14,7 @@ script:
 
 after_script:
   - ls ./public
+  - npm -v
   - cd ./public
   - echo "blog.shijf.top" >> CNAME
   - git init
