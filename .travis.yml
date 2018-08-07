@@ -13,6 +13,7 @@ script:
   - hexo g
 
 after_script:
+  - ls
   - ls ./public
   - npm -v
   - cd ./public
