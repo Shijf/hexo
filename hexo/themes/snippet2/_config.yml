@@ -5,7 +5,7 @@
 
 
 
-language: zh-CN
+
 
 ## menu
 menu:
@@ -208,9 +208,12 @@ tencent_analytics:
 baidu_site_verification:
 
 ### 百度自动推送
-baidu_push: false
+baidu_push: true
 
 #网站主题配置
 since: 2018
 robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all
 version: 1.2.1
+
+
+language: zh-CN
