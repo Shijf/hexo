@@ -22,7 +22,9 @@ after_script:
   - git add .
   - git commit -m "Update docs"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-  - git push --force --quiet "https://a998354a10d5f7b8695c3e336a1e016d426b8944@git.coding.net/shijf/shijf.coding.me.git" master:master
+  - rm "CNAME"
+  - echo " <p>Hosted by <a href= \"https://pages.coding.me \" style=\"font-weight: bold \">Coding Pages</a></p> " >> index.html
+  - git push --force --quiet "https://shijf:${CODING_TOKEN}@${CODING_REF}" master:master
 
 
 # E: Build LifeCycle
@@ -33,3 +35,4 @@ branches:
 env:
  global:
    - GH_REF: github.com/Shijf/shijf.github.io.git
+   - CODING_REF: git.coding.net/shijf/shijf.coding.me.git
