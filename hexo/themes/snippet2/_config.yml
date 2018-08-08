@@ -216,4 +216,4 @@ robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all
 version: 1.2.1
 
 
-language: zh-CN
+
