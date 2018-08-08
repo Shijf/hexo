@@ -22,6 +22,9 @@ after_script:
   - git add .
   - git commit -m "Update docs"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+  - git push https://shijf:a998354a10d5f7b8695c3e336a1e016d426b8944@git.coding.net/shijf/shijf.coding.me.git
+
+
 # E: Build LifeCycle
 
 branches:
