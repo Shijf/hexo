@@ -12,14 +12,14 @@ menu:
 - page: home
   url: /
   icon:
-- page: 前端
-  url: /categories/前端/
+- page: Laravel
+  url: /categories/Laravel/
   icon:
-- page: 后端
-  url: /categories/后端/
+- page: PHP
+  url: /categories/php/
   icon:
-- page: 工具
-  url: /categories/工具/
+- page: 杂记
+  url: /categories/others/
   icon:
 - page: 时间轴
   url: /archives/
