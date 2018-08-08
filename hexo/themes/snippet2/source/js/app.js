@@ -11,6 +11,7 @@ window.onload = function() {
         $gitcomment = document.getElementById("gitcomment"),
         $backToTop = document.getElementById("back-to-top"),
         $toc = document.getElementById("article-toc"),
+        $coding_net = document.getElementById("coding_net"),
         timer = null;
 
     //设备判断
@@ -111,6 +112,17 @@ window.onload = function() {
 	            cancelAnimationFrame(timer);
 	        }
 	    });
-	};
+    };
+    
+    //codingnet判断
+    var url = window.location.href;
+
+    console.log(url);
+
+    if(url == blog.shijf.top){
+        $coding_net.style.display="none";
+    }
+
+
 
 };
