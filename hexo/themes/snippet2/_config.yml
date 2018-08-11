@@ -33,7 +33,7 @@ rss: /atom.xml
 
 ## Carousel
 carousel:
-  img: img/head-img.jpg
+  img: 
 
 # 各个小工具的设置
 
