@@ -149,7 +149,7 @@ declaration:
 
 ### gitment
 gitment:
-  enable: true
+  enable: false
   owner: shijf
   repo: shijf.github.io
   client_id: a46bb7e59df8cd67f468
@@ -180,9 +180,9 @@ changyan:
 
 ## Valine评论
 valine:
-   enable: false
-   appId: xOKV9J4UeQAtVkvnJC7Kq2Jn-gzGzoHsz
-   appKey: erIpQac4azoCmgfBB7Dl9maa
+   enable: true
+   appId: ssg4am5za3nSj3YfOl46RyMH-gzGzoHsz
+   appKey: o35N0fF3t5Bvm9AiX6eJBXzg
    placeholder: 说点什么吧
    notify: true
    verify: true
