@@ -1,14 +1,32 @@
-<script type="text/javascript" src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<!-- <script type="text/javascript" src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
 <script>
-    var gitment = new Gitment({
-        id: window.location.pathname,
-        owner:"<%= theme.gitment.owner%>",
-        repo:"<%= theme.gitment.repo%>",
-        oauth: {
-          client_id:"<%= theme.gitment.client_id%>",
-          client_secret:"<%= theme.gitment.client_secret%>"
-        },
-        perPage:"<%= theme.gitment.perPage%>",
-    });
-    gitment.render('comments');
+    var comments = {
+      load: function comments2() {
+        var script=document.createElement("script");
+        script.type="text/javascript";
+        script.src="https://imsun.github.io/gitment/dist/gitment.browser.js";
+        document.getElementsByTagName('head')[0].appendChild(script);
+
+        script.onload=function(){//js加载完成执行方法
+
+          const gitment = new Gitment({
+              id: window.location.pathname,
+              owner:"<%= theme.gitment.owner%>",
+              repo:"<%= theme.gitment.repo%>",
+              oauth: {
+                client_id:"<%= theme.gitment.client_id%>",
+                client_secret:"<%= theme.gitment.client_secret%>"
+              },
+              perPage:"<%= theme.gitment.perPage%>",
+          });
+          gitment.render('comments');
+          var m = document.getElementById("loading_comments");
+          m.parentNode.removeChild(m);
+        }
+        console.log();
+      }
+    }
+
+    // gitment.render('comments');
+    //123
 </script>
