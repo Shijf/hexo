@@ -1,7 +1,6 @@
 ---
 title: {{ title }}
 date: {{ date }}
-categories: 
-  - 
-tags:
+categories: ['others']
+tags: ['php','']
 ---

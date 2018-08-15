@@ -55,11 +55,8 @@
 
 <% if(page.comments){ %>
     <div id="comments">
-            <button id="loading_comments" class="btn btn-warning  search-form-submit " onclick="comments.load();" style="color:#FFFFFF" type="button" name="button">加载评论</button>
         <%- partial('_vendor/comments/index', {page: page}) %>
     </div>
-    <div  style="height:220px" id="loading_comments">
-        </div>
 <% } %>
 
 

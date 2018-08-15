@@ -1,4 +1,3 @@
-<!-- <script type="text/javascript" src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
 <script>
     var comments = {
       load: function comments2() {
@@ -11,13 +10,13 @@
 
           const gitment = new Gitment({
               id: window.location.pathname,
-              owner:"<%= theme.gitment.owner%>",
-              repo:"<%= theme.gitment.repo%>",
+              owner:"shijf",
+              repo:"shijf.github.io",
               oauth: {
-                client_id:"<%= theme.gitment.client_id%>",
-                client_secret:"<%= theme.gitment.client_secret%>"
+                client_id:"a46bb7e59df8cd67f468",
+                client_secret:"6d1da67d1d801574ebec31d3118ff8cb9406896a"
               },
-              perPage:"<%= theme.gitment.perPage%>",
+              perPage:"10",
           });
           gitment.render('comments');
           var m = document.getElementById("loading_comments");
