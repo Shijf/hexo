@@ -2,9 +2,11 @@
 title: build-a-fast-and-elegant-laravel-development-environment
 categories:
   - others
+  - Laravel
+  - PHP
 tags:
   - php
-  - ''
+  - laravel
 date: 2018-08-22 15:16:19
 ---
 
