@@ -15,7 +15,7 @@ script:
   - pwd
 after_script:
   - cd ./public
-  - echo "blog.shijf.top" >> CNAME
+  - echo "blog.sharef.top" >> CNAME
   - git init
   - git config user.name "shijf"
   - git config user.email "shijf_private@163.com"
