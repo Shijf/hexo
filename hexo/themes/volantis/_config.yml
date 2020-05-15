@@ -535,7 +535,7 @@ comments:
   gitalk:
     clientID: 7804fb60892bbd64326e
     clientSecret: 1fe9da970a8baa5e17afd01a24c5c59151e544cf
-    repo: https://github.com/Shijf/shijf.github.io
+    repo: shijf.github.io
     owner: Shijf
     admin: # []
     language:  zh-CN
