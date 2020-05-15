@@ -533,13 +533,12 @@ comments:
   # Gitalk
   # https://gitalk.github.io/
   gitalk:
-    clientID: 5399d9d3c1debe438a77
-    clientSecret: 0f6a7a5b2cf11218377b2b8361d102d8bb14341f
+    clientID: 7804fb60892bbd64326e
+    clientSecret: 1fe9da970a8baa5e17afd01a24c5c59151e544cf
     repo: https://github.com/Shijf/shijf.github.io
-    owner: shijf
+    owner: Shijf
     admin: # []
     language:  zh-CN
-    distractionFreeMode: true
   # Vssue
   # https://vssue.js.org/zh/
   vssue:
